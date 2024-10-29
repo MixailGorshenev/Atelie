@@ -1,0 +1,248 @@
+html {
+    background-color: #85937A;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.hr-nav {
+    top: 5%;
+    right: 0.1%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+}
+
+.home {
+    position: absolute;
+    left: 5%;
+    font-family: "MTS";
+}
+
+.hrfoot {
+    position: absolute;
+    top: 300%;
+}
+
+.contacts {
+    position: absolute;
+    right: 5%;
+    font-family: "MTS";
+}
+
+.faw {
+    position: absolute;
+    top: 1%;
+    left: 48%;
+    right: 52%;
+}
+
+.n, .o, .karmany {
+    position: absolute;
+    color: white;
+    font-family: "Gabriela";
+}
+
+.n {
+    font-size: 20dvh;
+    left: 44%;
+    right: 56%;
+    top: -2.5%;
+}
+.o {
+    font-size: 15dvh;
+    left: 49.1%;
+    right: 50.9%;
+    top: 7%;
+}
+
+.mama {
+    position: absolute;
+    top: 100%;
+}
+
+.about {
+    top: 85%;
+    left: 33%;
+    font-family: "MTS";
+    font-size: 12dvh;
+}
+
+.karmany {
+    top: 45%;
+    font-size: 12dvh;
+    left: 36%;
+    right: 64%;
+}
+
+.logo {
+    position: absolute;
+    left: 44%;
+    right: 56%;
+    top: 40%;
+    animation: logo 3s;
+    animation-delay: 1s;
+}
+
+.str {
+    position: absolute;
+    color: white;
+    top: 80%;
+    left: 55%;
+}
+
+.onstr {
+    color: white;
+    position: absolute;
+    top: 93%;
+    left: 33%;
+}
+
+.twstr {
+    font-size: 11dvh;
+    color: white;
+    position: absolute;
+    top: 106%;
+    left: 33%;
+}
+
+.thstr {
+    color: white;
+    position: absolute;
+    top: 115%;
+    left: 32.5%;
+}
+
+.fostr {
+    color: white;
+    position: absolute;
+    top: 125%;
+    left: 34%;
+}
+.fistr {
+    color: white;
+    position: absolute;
+    top: 136%;
+    left: 41.5%;
+}
+
+.sistr {
+    color: white;
+    position: absolute;
+    top: 147%;
+    left: 37%;
+}
+
+.sestr {
+    color: white;
+    position: absolute;
+    top: 158%;
+    left: 57%;
+}
+
+.razdelfootbody {
+    position: absolute;
+    left: 43%;
+    top: 195%;
+}
+
+.cStr1 {
+    position: absolute;
+    color: white;
+    top: 210%;
+    left: 4%;
+    font-family: "MTS";
+    font-size: 10dvh;
+}
+
+.cStr2 {
+    position: absolute;
+    color: white;
+    top: 220%;
+    left: 15%;
+    font-family: "MTS";
+    font-size: 10dvh;
+}
+
+.cStr3 {
+    position: absolute;
+    color: white;
+    top: 230%;
+    left: 3%;
+    font-family: "MTS";
+    font-size: 10dvh;
+}
+
+.cStr4 {
+    position: absolute;
+    color: white;
+    top: 235%;
+    left: 30%;
+    font-family: "MTS";
+    font-size: 13dvh;
+}
+
+.footer-hr {
+    top: 270%;
+    right: 0.1%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+}
+
+.faw-foot {
+    position: absolute;
+    left: 43%;
+    right: 57%;
+    top: 275%;
+}
+
+.contact-foot {
+    position: absolute;
+    color: white;
+    font-family: "MTS";
+    top: 278%;
+    font-size: 5dvh;
+    left: 5%;
+}
+.about-foot {
+    position: absolute;
+    color: white;
+    font-family: "MTS";
+    top: 285%;
+    font-size: 5dvh;
+    left: 5%;
+}
+.doublegis {
+    position: absolute;
+    color: white;
+    font-family: "MTS";
+    top: 282%;
+    font-size: 6dvh;
+    right: 28%;
+}
+.d-gis {
+    position: absolute;
+    top: 284%;
+    right: 19%;
+}
+@font-face { 
+    font-family: "Gabriela"; 
+    src: url("./fonts/Gabriela-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+@font-face { 
+    font-family: "MTS"; 
+    src: url("./fonts/MTS.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+@keyframes logo {
+    100% {
+        rotate: 1440deg;
+    }
+}
